@@ -1,0 +1,83 @@
+.bg-container {
+  background-image: linear-gradient(to left, #1d976c, #93f9b9);
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.text-container {
+  order: 1;
+}
+
+.image {
+  width: 80%;
+  order: 0;
+}
+
+.label {
+  color: #ffffff;
+  font-size: 10px;
+}
+
+.inputEle {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 6px;
+  height: 40px;
+  width: 250px;
+}
+
+.letters-count {
+  background-color: #ffffff;
+  border-radius: 6px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 50px;
+  padding-left: 50px;
+  text-align: center;
+}
+
+.count-head {
+  color: #219a6f;
+  font-weight: 600;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+@media (min-width: 768px) {
+  .bg-container {
+    flex-direction: row;
+    padding: 35px;
+  }
+
+  .heading {
+    font-size: 45px;
+  }
+
+  .text-container {
+    order: 0;
+  }
+
+  .image {
+    width: 45vw;
+    order: 1;
+  }
+
+  .inputEle {
+    height: 60px;
+    width: 360px;
+  }
+
+  .count-head {
+    font-size: 34px;
+  }
+}
